@@ -28,10 +28,10 @@ public class PrintStudentList {
         s3.setId(3);
 
         // Create an array to store the students
-        Student[] list = new Student[2];
+        Student[] list = new Student[3];
         list[0] = s1;
         list[1] = s2;
-//        list[2] = s3; // Saves the object in the array
+        list[2] = s3; // Saves the object in the array
 
         // Print each student's name and ID on separate lines
         for (int i = 0; i < list.length; i++) {
